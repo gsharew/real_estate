@@ -68,7 +68,8 @@ const Navbar = () => {
           }`}
         >
           {navLinks.map((link) => (
-            <SingleLink {...link} key={link.id} />
+            // <p key={link.id}>{link.linkText}</p>
+            <SingleLink {...link} key={link.id}/>
           ))}
         </ul>
 

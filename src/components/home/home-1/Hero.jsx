@@ -41,7 +41,8 @@ const Hero = () => {
         </div>
       </div>
       <div className="flex-1 basis-[20rem]">
-        <img src="/images/garment.png" style= {{ height:'500px', width: '350px ', marginLeft: '200px '}}alt="" className="w-full" />             
+      <img src="/images/hero-4.png" alt="" className="w-full" />
+        {/* <img src="/images/getachew.png" style={{width  :'300px', height : '800px', marginLeft : '300px'}} alt="" className="w-full" /> */}
       </div>
     </div>
   );

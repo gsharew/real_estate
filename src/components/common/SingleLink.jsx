@@ -17,10 +17,10 @@ const SingleLink = ({ id, linkText, url, subLinks }) => {
         end
         key={id}
         className="relative w-full px-3 py-[0.6rem] lg:px-4 flex-align-center gap-x-1 link"
-        onMouseOver={handleDropDown}
+        // onMouseOver={handleDropDown}
       >
         {linkText}
-        {subLinks && <BiChevronDown className="link" />}
+        {/* {subLinks   && <BiChevronDown className="link" />} */}
       </NavLink>
     </div>
   );
