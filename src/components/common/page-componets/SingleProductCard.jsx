@@ -20,7 +20,7 @@ const SingleProductCard = ({
   const dispatch = useDispatch();
   const navigate = useNavigate();
 
-  const handlePropertyClick = () => {
+  const handlePropertyClick = (id) => {
     // Dispatch the selected property to Redux
     dispatch(
       setSelectedProperty({
@@ -37,7 +37,7 @@ const SingleProductCard = ({
     );
     console.log("object", id)
 
-    navigate("/view-detail"); // Navigate to the detail page
+    navigate("/view-detail?=" + id); // Navigate to the detail page
   };
 
   return (
@@ -45,7 +45,7 @@ const SingleProductCard = ({
       className="flex-1 basis-[18rem] shadow-light dark:border-card-dark border rounded-lg overflow-hidden relative group"
     >
       <div className="group !opacity-100 overflow-hidden relative">
-        <Link to="#" onClick={handlePropertyClick} className="!opacity-100">
+        <Link to="#" onClick={() =>handlePropertyClick(id)} className="!opacity-100">
           <img
             src={image}
             alt={name}
@@ -86,7 +86,7 @@ const SingleProductCard = ({
         </div>
 
         <div className="mt-4 flex-center-between">
-          <Link to="/view-detail" className="group-hover:text-primary transition-a">
+          <Link to= {"/view-detail?id=" + id} className="group-hover:text-primary transition-a">
             <h1 className="text-lg font-bold capitalize">Show details</h1>
           </Link>
         </div>
