@@ -1,0 +1,122 @@
+export const sotreData = [
+  {
+    id: 1,
+    name: "Luxury Apartment in Downtown",
+    location: "Downtown, Metro City",
+    price: 500000,
+    size: "1500 sq. ft.",
+    bedrooms: 3,
+    bathrooms: 2,
+    imageUrl: "https://example.com/images/apartment1.jpg",
+    features: ["Modern Kitchen", "Balcony", "Swimming Pool", "Gym", "Parking"],
+    description: "A luxurious 3-bedroom apartment located in the heart of Metro City. Perfect for those who enjoy the vibrant city life."
+  },
+  {
+    id: 2,
+    name: "Cozy Studio in Uptown",
+    location: "Uptown, Metro City",
+    price: 150000,
+    size: "600 sq. ft.",
+    bedrooms: 1,
+    bathrooms: 1,
+    imageUrl: "https://example.com/images/studio1.jpg",
+    features: ["Furnished", "City View", "Close to Public Transport"],
+    description: "A comfortable and fully-furnished studio apartment in the Uptown area. Ideal for young professionals."
+  },
+  {
+    id: 3,
+    name: "Suburban Family Home",
+    location: "Greenwood Suburbs",
+    price: 350000,
+    size: "2000 sq. ft.",
+    bedrooms: 4,
+    bathrooms: 3,
+    imageUrl: "https://example.com/images/home1.jpg",
+    features: ["Backyard", "Garage", "Garden", "Pet Friendly"],
+    description: "A spacious family home located in the peaceful Greenwood suburbs. Comes with a beautiful backyard and garden."
+  },
+  {
+    id: 4,
+    name: "Modern Loft in Industrial District",
+    location: "Industrial District, Metro City",
+    price: 400000,
+    size: "1200 sq. ft.",
+    bedrooms: 2,
+    bathrooms: 1,
+    imageUrl: "https://example.com/images/loft1.jpg",
+    features: ["Open Floor Plan", "Exposed Brick", "Rooftop Access"],
+    description: "A stylish loft with an industrial vibe, perfect for urban dwellers looking for a unique living space."
+  },
+  {
+    id: 5,
+    name: "Beachfront Villa",
+    location: "Seaside, Coastal City",
+    price: 1200000,
+    size: "3000 sq. ft.",
+    bedrooms: 5,
+    bathrooms: 4,
+    imageUrl: "https://example.com/images/villa1.jpg",
+    features: ["Ocean View", "Private Pool", "Direct Beach Access", "Large Patio"],
+    description: "A luxurious beachfront villa with stunning ocean views. Perfect for a family vacation home or retirement paradise."
+  },
+  {
+    id: 6,
+    name: "Urban Condo with Skyline View",
+    location: "Skyline Towers, Metro City",
+    price: 800000,
+    size: "1400 sq. ft.",
+    bedrooms: 2,
+    bathrooms: 2,
+    imageUrl: "https://example.com/images/condo1.jpg",
+    features: ["City Skyline View", "Balcony", "Gym Access", "24/7 Security"],
+    description: "A high-rise condo with stunning views of the Metro City skyline. Conveniently located near shopping and entertainment."
+  },
+  {
+    id: 7,
+    name: "Countryside Cottage",
+    location: "Lakeside, Hilltown",
+    price: 250000,
+    size: "1000 sq. ft.",
+    bedrooms: 2,
+    bathrooms: 1,
+    imageUrl: "https://example.com/images/cottage1.jpg",
+    features: ["Fireplace", "Lake View", "Garden", "Quiet Neighborhood"],
+    description: "A charming cottage by the lake, surrounded by nature. Perfect for those looking to escape the city and enjoy a quiet lifestyle."
+  },
+  {
+    id: 8,
+    name: "Modern Duplex in Downtown",
+    location: "Downtown, Metro City",
+    price: 600000,
+    size: "1800 sq. ft.",
+    bedrooms: 3,
+    bathrooms: 2.5,
+    imageUrl: "https://example.com/images/duplex1.jpg",
+    features: ["Roof Terrace", "Smart Home System", "Energy Efficient Appliances"],
+    description: "A modern duplex with a rooftop terrace and smart home features. Ideal for families or young couples."
+  },
+  {
+    id: 9,
+    name: "Historic Townhouse",
+    location: "Old Town, Metro City",
+    price: 450000,
+    size: "1600 sq. ft.",
+    bedrooms: 3,
+    bathrooms: 2,
+    imageUrl: "https://example.com/images/townhouse1.jpg",
+    features: ["Historic Charm", "Brick Exterior", "Wood Flooring"],
+    description: "A beautiful townhouse with historic charm in the heart of Old Town. Preserved features with modern amenities."
+  },
+  {
+    id: 10,
+    name: "Mountain Cabin",
+    location: "Rocky Hills, Mountain View",
+    price: 300000,
+    size: "1200 sq. ft.",
+    bedrooms: 2,
+    bathrooms: 1,
+    imageUrl: "https://example.com/images/cabin1.jpg",
+    features: ["Mountain View", "Fireplace", "Deck", "Nature Trails Nearby"],
+    description: "A cozy mountain cabin with breathtaking views and easy access to nature trails. Perfect for a getaway retreat."
+  }
+];
