@@ -1,19 +1,19 @@
 import {
   AboutUs,
-  Brands,
-  Feeds,
+  // Feeds,
   Team,
   Testimonial,
 } from "../components/common/page-componets";
+import Mission from "../components/common/page-componets/Mission";
 
 const About = () => {
   return (
     <div className="pt-20 px-[3%] md:px-[6%]">
       <AboutUs />
       <Team />
+      <Mission />
       <Testimonial />
-      <Brands />
-      <Feeds />
+      {/* <Feeds /> */}
     </div>
   );
 };

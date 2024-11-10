@@ -24,8 +24,7 @@ const Categories = () => {
             find your dream house by searching our popular categories
           </h1>
           <p className="mt-3">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
-            veniam, odio suscipit minima accusamus ipsum.
+            we have different categories in our Metro Homes Company.
           </p>
           <button className="mt-4 btn btn-primary">all categories</button>
         </div>

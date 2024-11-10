@@ -85,7 +85,7 @@ const LatestForSale = () => {
 
                     <div className="mt-4 flex-center-between">
                       <h1 className="text-lg font-semibold text-primary">
-                        ${price}
+                        {/* {price} */}
                       </h1>
                       <button className="btn btn-secondary">details</button>
                     </div>

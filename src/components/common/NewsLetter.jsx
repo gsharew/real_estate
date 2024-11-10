@@ -16,8 +16,7 @@ const NewsLetter = () => {
             subscribe to our newsletter
           </h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda,
-            earum.
+            welcome to Metrohomes
           </p>
         </div>
         <div className="mt-3">

@@ -25,7 +25,7 @@ const Filters = () => {
                 id=""
                 className="w-full bg-transparent border-0 outline-none dark:bg-hover-color-dark opacity-70"
               >
-                <option value="condors">Condors</option>
+                {/* <option value="condors">Condors</option> */}
                 <option value="offfice buildings">Offfice Buildings</option>
                 <option value="apartments">Apartments</option>
                 <option value="mansions">Mansions</option>
@@ -46,13 +46,13 @@ const Filters = () => {
                 id=""
                 className="w-full bg-transparent border-0 outline-none dark:bg-hover-color-dark opacity-70"
               >
-                <option value="$40,000 - $80,000">$40,000 - $80,000</option>
-                <option value="$80,000 - $120,000">$80,000 - $120,000</option>
-                <option value="$120,000 - $200,000">$120,000 - $200,000</option>
-                <option value="$200,000 - $300,000">$200,000 - $300,000</option>
-                <option value="$300,000 - $500,000">$300,000 - $500,000</option>
-                <option value="$500,000 - $1000,000">
-                  $500,000 - $1000,000
+                <option value="7,000,000 - 8,000,000">7,000,000 - 8,000,000</option>
+                <option value="80,000 - 120,000">80,000 - 120,000</option>
+                <option value="120,000 - 200,000">120,000 - 200,000</option>
+                <option value="200,000 - 300,000">200,000 - 300,000</option>
+                <option value="300,000 - 500,000">300,000 - 500,000</option>
+                <option value="500,000 - 1000,000">
+                  500,000 - 1000,000
                 </option>
               </select>
             </div>

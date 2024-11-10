@@ -1,11 +1,11 @@
 import {
-  Brands,
   Counter,
   Featured,
   Projects,
   Services,
   Testimonial,
 } from "../components/common/page-componets";
+import { DetailList } from "../components/common/page-componets/DetailList";
 import {
   Feeds,
   Filters,
@@ -26,8 +26,8 @@ const Home = () => {
       <Counter />
       <Projects />
       <Testimonial />
-      <Brands />
       <Feeds />
+      <DetailList/>
     </div>
   );
 };

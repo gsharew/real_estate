@@ -6,12 +6,12 @@ const AboutUs = () => {
       <div className="flex flex-wrap gap-24">
         <div className="relative flex-1 basis-[18rem] border">
           <img
-            src="/images/property (16).jpg"
+            src="/images/signow1.jpg" style={{height: "10", width: "600px", marginBottom: "-200px"}}
             alt=""
             className="object-cover w-full h-full rounded-lg"
           />
           <img
-            src="/images/property (26).jpg"
+            src="/images/sarbetin.png"
             alt=""
             className="absolute object-cover w-48 h-64 border-4 border-white rounded-lg sm:w-72 sm:h-80 dark:border-dark -bottom-20 -right-2 md:-right-20"
           />
@@ -20,9 +20,7 @@ const AboutUs = () => {
           <h1 className="sub-heading">about us</h1>
           <h1 className="heading">we decorate your home environment</h1>
           <p className="mt-3">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo laborum
-            earum saepe quibusdam, temporibus aut sapiente, ea alias libero,
-            ipsam perferendis. Consectetur maiores, dicta.
+          Metro Homes is a premier real estate brand that redefines luxury living. We specialize in offering exquisitely designed residential properties, crafted for those who appreciate the finer things in life. At Metro Homes, our mission is to provide not just a house, but a lifestyle one where comfort, sophistication, and modern living harmonize seamlessly.
           </p>
           <div className="mt-4">
             <div className="flex-align-center gap-x-2">
@@ -33,10 +31,10 @@ const AboutUs = () => {
                 <h1 className="font-semibold capitalize">
                   the perfect residency
                 </h1>
-                <p>
+                {/* <p>
                   Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                   Saepe, quisquam?
-                </p>
+                </p> */}
               </div>
             </div>
 
@@ -48,10 +46,10 @@ const AboutUs = () => {
                 <h1 className="font-semibold capitalize">
                   global architect experts
                 </h1>
-                <p>
+                {/* <p>
                   Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                   Saepe, quisquam?
-                </p>
+                </p> */}
               </div>
             </div>
 
@@ -63,10 +61,10 @@ const AboutUs = () => {
                 <h1 className="font-semibold capitalize">
                   total payment transparency
                 </h1>
-                <p>
+                {/* <p>
                   Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                   Saepe, quisquam?
-                </p>
+                </p> */}
               </div>
             </div>
           </div>

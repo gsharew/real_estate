@@ -8,10 +8,7 @@ const Speciality = () => {
           <h1 className="sub-heading">about us</h1>
           <h1 className="heading">we specialize in quality home renovations</h1>
           <p className="mt-3">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo laborum
-            earum saepe quibusdam, temporibus aut sapiente, ea alias libero,
-            ipsam perferendis. Consectetur maiores, dicta, earum eaque facilis
-            adipisci dignissimos optio fuga officia itaque quo impedit.
+          Metro Homes – Building Trust, Delivering Quality Living Spaces"
           </p>
           <div className="mt-4">
             <div className="flex-align-center gap-x-2">
@@ -44,13 +41,13 @@ const Speciality = () => {
         <div className="flex-1 basis-[20rem]">
           <div className="relative">
             <img
-              src="/images/property (5).jpg"
+              src="/images/aware.jpg" style={{hight:'50px', width : '400px' ,marginLeft: '150px'}}
               alt=""
               className="rounded-lg w-full sm:h-[400px] object-cover"
             />
             <div className="absolute -bottom-10 sm:bottom-5 -left-2 md:-left-20">
               <div className="p-3 bg-white rounded-lg shadow-md w-72 flex-center-between gap-x-3 dark:bg-dark-light">
-                <h1>We have been serving our customers for over 70 years</h1>
+                <h1>We have been serving our customers for over 5 years</h1>
                 <div className="icon-box text-primary !bg-primary/20">
                   <FiUsers />
                 </div>

@@ -19,7 +19,7 @@ const TopRated = () => {
               edit={false}
             />
             <h1 className="mt-2">{name}</h1>
-            <h1 className="mt-2 text-lg font-semibold">${price}</h1>
+            <h1 className="mt-2 text-lg font-semibold">{price}</h1>
           </div>
         </div>
       ))}

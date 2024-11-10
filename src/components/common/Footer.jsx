@@ -13,12 +13,11 @@ const Footer = () => {
           <div className="flex-1 basis-[10rem]">
             <Link to="/" className="flex-shrink-0 flex-align-center gap-x-1">
               <BiBuildingHouse className="text-3xl text-primary" />
-              <h1 className="hidden md:block">MartVilla</h1>
+              <h1 className="hidden md:block">Metrohomes</h1>
             </Link>
             <div className="mt-3">
               <p className="text-sm">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab
-                harum explicabo illo, magnam vitae expedita.
+              Metro Homes Building Trust, Delivering Quality Living Spaces
               </p>
               <div className="gap-5 my-6 flex-center-center">
                 <div className="icon-box bg-dark-light hover:bg-hover-color-dark">
@@ -47,16 +46,10 @@ const Footer = () => {
                 <a href="#"> Order Tracking</a>
               </li>
               <li className="my-3 text-muted">
-                <a href="#">Whislist</a>
-              </li>
-              <li className="my-3 text-muted">
                 <a href="#">Terms of use</a>
               </li>
               <li className="my-3 text-muted">
                 <a href="#">Contact support</a>
-              </li>
-              <li className="my-3 text-muted">
-                <a href="#">2 year guarantee</a>
               </li>
             </ul>
           </div>
@@ -70,24 +63,12 @@ const Footer = () => {
               <li className="my-3 text-muted">
                 <a href="#">Services</a>
               </li>
-              <li className="my-3 text-muted">
-                <a href="#">Blog</a>
-              </li>
-              <li className="my-3 text-muted">
-                <a href="#">Portifolio</a>
-              </li>
             </ul>
           </div>
 
           <div className="flex-1 basis-[10rem]">
             <h2 className="text-xl font-semibold">Business</h2>
             <ul>
-              <li className="my-3 text-muted">
-                <a href="#"> Success</a>
-              </li>
-              <li className="my-3 text-muted">
-                <a href="#">Guide</a>
-              </li>
               <li className="my-3 text-muted">
                 <a href="#">Mission</a>
               </li>
@@ -121,7 +102,7 @@ const Footer = () => {
       </footer>
       <div className="py-2 mt-3 text-center border-t text-muted border-dark">
         <p>
-          Created By <span className="text-primary">Wabweni Brian</span> | All
+          Copyriht @ 2024 <span className="text-primary"> Metrohomes </span> | All
           Rights Reserved
         </p>
       </div>
